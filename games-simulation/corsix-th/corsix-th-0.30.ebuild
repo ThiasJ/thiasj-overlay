@@ -28,7 +28,7 @@ RDEPEND=">=dev-lang/lua-5.1
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
-S="${WORKDIR}/${MY_P}"
+S="${WORKDIR}/CorsixTH-0.30"
 
 src_prepare() {
 	epatch "${FILESDIR}/${PN}-nodoc.patch"
