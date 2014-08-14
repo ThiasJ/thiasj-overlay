@@ -1,0 +1,10 @@
+--- CorsixTH/CMakeLists.txt	2014-08-14 18:07:32.828535575 +0200
++++ CorsixTH/CMakeLists.txt.new	2014-08-14 18:13:25.988531699 +0200
+@@ -228,5 +228,5 @@
+   install(DIRECTORY Bitmap DESTINATION CorsixTH
+         FILES_MATCHING REGEX ".*\\.(tab|pal|dat|png)$"
+         PATTERN "*.svn" EXCLUDE)
+-  install(FILES CorsixTH.lua LICENSE.txt CorsixTH.ico DESTINATION CorsixTH )
++  install(FILES CorsixTH.lua CorsixTH.ico DESTINATION CorsixTH )
+ ENDIF()
+

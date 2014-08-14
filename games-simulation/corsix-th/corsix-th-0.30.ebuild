@@ -30,6 +30,12 @@ DEPEND="${RDEPEND}
 
 S="${WORKDIR}/CorsixTH-0.30"
 
+src_prepare() {
+	epatch "${FILESDIR}/${PN}-nodoc.patch"
+
+}
+
+
 src_configure() {
 	local mycmakeargs="$(cmake-utils_use_with opengl OPENGL) \
 		$(cmake-utils_use_with sdl SDL) \
