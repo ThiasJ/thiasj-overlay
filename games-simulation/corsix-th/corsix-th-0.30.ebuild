@@ -33,6 +33,7 @@ S="${WORKDIR}/CorsixTH-0.30"
 src_prepare() {
 	epatch "${FILESDIR}/${PN}-nodoc.patch"
 
+	epatch "${FILESDIR}/${P}-naming.patch"
 }
 
 

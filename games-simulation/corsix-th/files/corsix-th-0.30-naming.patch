@@ -1,0 +1,17 @@
+--- CMakeLists.txt	2014-08-14 18:28:47.278521588 +0200
++++ CMakeLists.txt.new	2014-08-14 18:32:14.008519319 +0200
+@@ -223,10 +223,10 @@
+   ENDIF()
+   
+ ELSE()
+-  install(TARGETS CorsixTH RUNTIME DESTINATION CorsixTH)
+-  install(DIRECTORY Lua Levels DESTINATION CorsixTH PATTERN "*.svn" EXCLUDE)
+-  install(DIRECTORY Bitmap DESTINATION CorsixTH
++  install(TARGETS CorsixTH RUNTIME DESTINATION corsix-th)
++  install(DIRECTORY Lua Levels DESTINATION corsix-th PATTERN "*.svn" EXCLUDE)
++  install(DIRECTORY Bitmap DESTINATION corsix-th
+         FILES_MATCHING REGEX ".*\\.(tab|pal|dat|png)$"
+         PATTERN "*.svn" EXCLUDE)
+-  install(FILES CorsixTH.lua CorsixTH.ico DESTINATION CorsixTH )
++  install(FILES CorsixTH.lua CorsixTH.ico DESTINATION corsix-th )
+ ENDIF()
