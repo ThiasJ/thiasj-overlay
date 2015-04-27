@@ -43,7 +43,7 @@ src_unpack() {
 }
 
 src_configure() {
-   econf --docdir=/usr/share/doc/${PF}/html \
+   econf --disable-werror --docdir=/usr/share/doc/${PF}/html \
       --with-spandsp=yes \
       $(use_with appindicator appindicator3) \
       $(use_with ebook) \
