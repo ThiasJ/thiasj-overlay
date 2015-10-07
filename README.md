@@ -9,6 +9,7 @@ The ebuilds
 
 * **games-simulation/corsix-th**: Modified the original portage ebuild to match the version 0.30! Disable Videos/ffmpeg USE flag. 
 Theres an error with ffmpeg/libav
+* **media-video/filebot-bin**: The ultimate tv renamer / subtitle downloader / sfv validator.
 * **net-misc/roger-router**: Roger Router provides a GUI to enhance the possibilities of your Fritz!Box oder Telekom Speedport.
 * **www-client/opera-developer**: This ebuild is copied from the BGO Overlay. All thanks to BGO! ;)
 
