@@ -27,11 +27,7 @@ S="${WORKDIR}"
 
 src_install() {
 	insinto "/"
-<<<<<<< HEAD
 	doins -r opt/ usr/
-=======
-	doins -r doins -r /opt /usr
->>>>>>> 4ec4423cb68426a24f7294eb8f00e31494423138
 
 	fperms 755 /opt/Synology/CloudStationBackup/bin/launcher
 	fperms 755 /usr/bin/synology-cloud-station-backup
