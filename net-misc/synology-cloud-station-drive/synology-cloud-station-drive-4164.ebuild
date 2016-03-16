@@ -27,7 +27,7 @@ S="${WORKDIR}"
 
 src_install() {
 	insinto "/"
-	doins -r *
+	doins -r doins -r /opt /usr
 
 	fperms 755 /opt/Synology/CloudStation/bin/launcher
 	fperms 755 /usr/bin/synology-cloud-station-drive
