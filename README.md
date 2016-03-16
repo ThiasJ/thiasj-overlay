@@ -12,4 +12,6 @@ Theres an error with ffmpeg/libav
 * **media-video/filebot-bin**: The ultimate tv renamer / subtitle downloader / sfv validator.
 * **net-misc/roger-router**: Roger Router provides a GUI to enhance the possibilities of your Fritz!Box oder Telekom Speedport.
 * **net-misc/synology-cloud-station**: To sync files among your Synology NAS and computers.
+* **net-misc/synology-cloud-station-backup**: To sync files among your Synology NAS and computers.
+* **net-misc/synology-cloud-station-drive**: To sync files among your Synology NAS and computers.
 * **www-client/opera-developer**: (discontinued) This ebuild is copied from the BGO Overlay. All thanks to BGO! ;) **www-client/opera-developer** is now in portage
