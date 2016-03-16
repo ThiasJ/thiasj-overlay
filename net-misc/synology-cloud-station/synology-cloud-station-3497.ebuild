@@ -6,7 +6,7 @@ EAPI=5
 
 inherit multilib unpacker eutils
 
-DESCRIPTION="To sync files among your Synology NAS and computers"
+DESCRIPTION="To sync files among your Synology NAS and computers. Uses DSM 5.2 and CloudStation 3.2."
 HOMEPAGE="https://www.synology.com/de-de/dsm/cloud_services"
 SRC_URI_BASE="http://global.download.synology.com/download/Tools/CloudStation/3.2-${PV}/Ubuntu/Installer"
 SRC_URI="x86? ( ${SRC_URI_BASE}/i686/${P}.i686.deb -> synology-cloud-station-i686.deb )

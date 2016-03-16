@@ -11,7 +11,7 @@ The ebuilds
 Theres an error with ffmpeg/libav
 * **media-video/filebot-bin**: The ultimate tv renamer / subtitle downloader / sfv validator.
 * **net-misc/roger-router**: Roger Router provides a GUI to enhance the possibilities of your Fritz!Box oder Telekom Speedport.
-* **net-misc/synology-cloud-station**: To sync files among your Synology NAS and computers.
-* **net-misc/synology-cloud-station-backup**: To sync files among your Synology NAS and computers.
-* **net-misc/synology-cloud-station-drive**: To sync files among your Synology NAS and computers.
+* **net-misc/synology-cloud-station**: To sync files among your Synology NAS and computers. Uses DSM 5.2 and CloudStation 3.2. (please uninstall before installing using DSM 6.0beta)
+* **net-misc/synology-cloud-station-backup**: To sync files among your Synology NAS and computers. Uses DSM 6.0beta and CloudStation 4.0.
+* **net-misc/synology-cloud-station-drive**: To sync files among your Synology NAS and computers. Uses DSM 6.0beta and CloudStation 4.0.
 * **www-client/opera-developer**: (discontinued) This ebuild is copied from the BGO Overlay. All thanks to BGO! ;) **www-client/opera-developer** is now in portage
