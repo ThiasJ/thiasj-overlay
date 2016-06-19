@@ -10,6 +10,8 @@ The ebuilds
 * **games-simulation/corsix-th**: Modified the original portage ebuild to match the version 0.30! Disable Videos/ffmpeg USE flag. 
 Theres an error with ffmpeg/libav
 * **media-video/filebot-bin**: The ultimate tv renamer / subtitle downloader / sfv validator.
+* **net-im/Franz**: Franz is a free messaging app / former Emperor of Austria and combines chat & messaging services into one application. He currently supports Slack, WhatsApp, WeChat, HipChat, Facebook 
+Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.
 * **net-misc/roger-router**: Roger Router provides a GUI to enhance the possibilities of your Fritz!Box oder Telekom Speedport.
 * **net-misc/synology-cloud-station**: To sync files among your Synology NAS and computers. Uses DSM 5.2 and CloudStation 3.2. (please uninstall before installing using DSM 6.0beta)
 * **net-misc/synology-cloud-station-backup**: To sync files among your Synology NAS and computers. Uses DSM 6.0beta and CloudStation 4.0.
