@@ -7,6 +7,7 @@ Please use them with care and at your own risk! Feel free to help me write bette
 The ebuilds
 -----------------
 
+* **app-editors/visual-studio-code**: Multiplatform Visual Studio Code from Microsoft. This ebuild is copied from the fuverlay Overlay. All thanks to fuverlay! ;)
 * **games-simulation/corsix-th**: Modified the original portage ebuild to match the version 0.30! Disable Videos/ffmpeg USE flag. 
 Theres an error with ffmpeg/libav
 * **media-video/filebot-bin**: The ultimate tv renamer / subtitle downloader / sfv validator.
