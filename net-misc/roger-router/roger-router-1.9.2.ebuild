@@ -54,7 +54,7 @@ src_configure() {
       --with-spandsp=yes \
       $(use_with appindicator appindicator3) \
       $(use_with ebook) \
-#      $(use_with kwallet) \
+      $(use_with kwallet) \
       $(use_with gdata) \
       $(use_with libnotify) \
       $(use_with secret) \
