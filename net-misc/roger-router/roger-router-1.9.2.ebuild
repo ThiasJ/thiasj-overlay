@@ -8,7 +8,7 @@ inherit eutils fdo-mime gnome2-utils
 
 DESCRIPTION="Implements fax over TCP on your Fritz!Box"
 HOMEPAGE="http://www.tabos.org/ffgtk"
-SRC_URI="http://de.tabos.org/downloads/${PN}-${PV}.tar.xz"
+SRC_URI="https://www.tabos.org/downloads/${PN}-${PV}.tar.xz"
 
 LICENSE="GPL2"
 SLOT="0"
@@ -34,7 +34,7 @@ RDEPEND="$DEPEND
    pulseaudio? ( media-sound/pulseaudio )
    portaudio? ( media-libs/portaudio )"
 
-AUTOMAKE_OPTIONS="--force --install"
+   AUTOMAKE_OPTIONS="--force --install"
 
 S="${WORKDIR}/${PN}-${PV}"
 
@@ -42,6 +42,8 @@ src_unpack() {
    unpack ${A}
 
    cd "${S}"
+
+   cp "${FILESDIR}/address-book.svg" roger/images/
 
    #eautoreconf
    #intltoolize --automake --force --copy
@@ -52,7 +54,7 @@ src_configure() {
       --with-spandsp=yes \
       $(use_with appindicator appindicator3) \
       $(use_with ebook) \
-      $(use_with kwallet) \
+#      $(use_with kwallet) \
       $(use_with gdata) \
       $(use_with libnotify) \
       $(use_with secret) \
