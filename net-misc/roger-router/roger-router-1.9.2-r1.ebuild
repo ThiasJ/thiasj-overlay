@@ -18,8 +18,8 @@ IUSE="appindicator libnotify gnotification ebook gdata kwallet kwallet5 secret g
 DEPEND="app-arch/xz-utils
       media-libs/spandsp
       net-print/cups
-      >=net-libs/gssdp-1.0
-      >=net-libs/gupnp-1.0
+      net-libs/gssdp
+      net-libs/gupnp
       >=net-libs/libcapi-3.0
       >=x11-libs/gtk+-3.14
       >=net-libs/libsoup-2.4
